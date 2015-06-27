@@ -3,7 +3,7 @@ require_once(LIB_PATH.DS."database.php");
 
 class Photograph extends DatabaseObject {
 	
-  protected static $table_name="Photographs";
+  protected static $table_name="photographs";
 
   // db column vars
   public $id;
