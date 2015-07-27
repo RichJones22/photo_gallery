@@ -26,7 +26,7 @@ if (!$session->is_logged_in()) { redirect_to("login.php"); }
     foreach ($photos as $photo) {
  ?>
   <tr>
-    <td><img src="..\<?php echo $photo->get_image_file(); ?>" width="100" /></td>
+    <td><img src="<?php echo $photo->get_image_file(); ?>" width="100" /></td>
     <td><?php echo $photo->filename; ?></td>
     <td><?php echo $photo->caption; ?></td>
     <td><?php echo $photo->get_size_as_text(); ?></td>
