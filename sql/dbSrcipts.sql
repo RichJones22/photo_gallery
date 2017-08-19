@@ -1,4 +1,4 @@
-Mysql -u gallery -p photo_gallery
+Mysql -u forge -p bWn4h5SzrqFNLiiqDD23
 
 create database photo_gallery;
 
