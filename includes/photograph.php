@@ -108,7 +108,7 @@ class Photograph extends DatabaseObject {
 }
   
   public function get_image_file() {
-        return "..".DS.$this->upload_dir.DS.$this->filename;
+        return $this->upload_dir.DS.$this->filename;
 }
 
   public function get_size_as_text() {

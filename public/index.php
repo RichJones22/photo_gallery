@@ -6,7 +6,7 @@ require_once("../includes/initialize.php");
     $page = !empty($_GET['page']) ? (int)$_GET['page'] : 1;
     
     // 2.  records per page ($per_page)
-    $per_page = 1;
+    $per_page = 3;
     
     // 3.  total record count ($total_count)
     $total_count = Photograph::count_all();
